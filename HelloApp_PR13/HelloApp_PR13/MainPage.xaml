@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloApp_PR13.MainPage">
+
+    <StackLayout>
+        <Label x:Name="label1" Text="2 в степени 0 = 1" FontSize="Large" />
+        <Button x:Name="factorialButton" Text = "Факториал" FontSize="Large" BorderWidth="1" Clicked="OnButtonClicked" />
+        <Entry x:Name="factorialEntry" />
+        <Label x:Name="label2" FontSize="Large" />
+    </StackLayout>
+
+</ContentPage>
